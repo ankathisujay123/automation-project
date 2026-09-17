@@ -1,5 +1,7 @@
 # Sauce Demo Playwright Automation
 
+![Playwright CI](https://github.com/ankathisujay123/automation-project/actions/workflows/playwright.yml/badge.svg)
+
 This project includes Playwright TypeScript automation for the Sauce Demo website.
 
 ## Features covered
@@ -18,6 +20,9 @@ npx playwright test tests/sauce-demo.spec.ts --project=chromium --reporter=line
 ## Environment
 This suite uses the public Sauce Demo site:
 https://www.saucedemo.com/
+
+## CI status
+This repository runs the Sauce Demo Playwright suite in GitHub Actions through [.github/workflows/playwright.yml](.github/workflows/playwright.yml).
 
 ## Notes
 Use the standard test credentials included in the tests:
